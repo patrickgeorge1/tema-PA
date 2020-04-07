@@ -46,10 +46,10 @@ public class Bani {
     }
 
     public void dynamicType2() {
-        Double[] before_ways_counter = {1.0, 1.0, 1.0, 1.0, 1.0, 1.0};
+        double[] before_ways_counter = {1.0, 1.0, 1.0, 1.0, 1.0, 1.0};
 
         for (int i = 2; i <= this.n; i++) {
-            Double[] ways_counter = { 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
+            double[] ways_counter = { 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
             for (int banknote = 1; banknote <= 5; banknote++) {
                 for (Integer dependency : dependenciesType.get(banknote)) {
                     ways_counter[banknote] += before_ways_counter[dependency] % 1000000007;

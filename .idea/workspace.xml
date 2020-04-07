@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e62c706-57d2-420e-af39-642899f82f5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/garduri/Gard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bomboane/Bomboane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bomboane/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GIgel/trezorerie/Bani.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GIgel/trezorerie/Bani.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trezorerie/Bani.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trezorerie/Bani.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +30,9 @@
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -34,13 +40,26 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Gard">
+  <component name="RunManager" selected="Application.Bomboane">
     <configuration name="Bani" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trezorerie.Bani" />
       <module name="GIgel" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="trezorerie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bomboane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bomboane.Bomboane" />
+      <module name="GIgel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bomboane.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,26 +93,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bomboane.Main" />
       <module name="GIgel" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bomboane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Bani" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Gard" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Bomboane" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Gard" />
+        <item itemvalue="Application.Bomboane" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Bani" />
+        <item itemvalue="Application.Gard" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -116,42 +141,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="768" y="231" width="478" height="570" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586220161561" />
-    <state width="1878" height="361" key="GridCell.Tab.0.bottom" timestamp="1586220401426">
+    <state x="743" y="239" width="424" height="554" key="FileChooserDialogImpl" timestamp="1586275497840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586220401426" />
-    <state width="1878" height="361" key="GridCell.Tab.0.center" timestamp="1586220401425">
+    <state x="743" y="239" width="424" height="554" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586275497840" />
+    <state width="1878" height="361" key="GridCell.Tab.0.bottom" timestamp="1586286807724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586220401425" />
-    <state width="1878" height="361" key="GridCell.Tab.0.left" timestamp="1586220401424">
+    <state width="1878" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586286807724" />
+    <state width="1878" height="361" key="GridCell.Tab.0.center" timestamp="1586286807723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586220401424" />
-    <state width="1878" height="361" key="GridCell.Tab.0.right" timestamp="1586220401425">
+    <state width="1878" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586286807723" />
+    <state width="1878" height="361" key="GridCell.Tab.0.left" timestamp="1586286807723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586220401425" />
-    <state width="1878" height="286" key="GridCell.Tab.1.bottom" timestamp="1586201581051">
+    <state width="1878" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586286807723" />
+    <state width="1878" height="361" key="GridCell.Tab.0.right" timestamp="1586286807723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586201581051" />
-    <state width="1878" height="286" key="GridCell.Tab.1.center" timestamp="1586201581050">
+    <state width="1878" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586286807723" />
+    <state width="1878" height="286" key="GridCell.Tab.1.bottom" timestamp="1586282943403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586201581050" />
-    <state width="1878" height="286" key="GridCell.Tab.1.left" timestamp="1586201581050">
+    <state width="1878" height="286" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586282943403" />
+    <state width="1878" height="286" key="GridCell.Tab.1.center" timestamp="1586282943401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586201581050" />
-    <state width="1878" height="286" key="GridCell.Tab.1.right" timestamp="1586201581050">
+    <state width="1878" height="286" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586282943401" />
+    <state width="1878" height="286" key="GridCell.Tab.1.left" timestamp="1586282943400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586201581050" />
-    <state x="643" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1586210281791">
+    <state width="1878" height="286" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586282943400" />
+    <state width="1878" height="286" key="GridCell.Tab.1.right" timestamp="1586282943402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="643" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586210281791" />
+    <state width="1878" height="286" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586282943402" />
+    <state x="598" y="221" width="713" height="591" key="NewModule_or_Project.wizard" timestamp="1586275509567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="221" width="713" height="591" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586275509567" />
+    <state x="643" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1586275394564">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="643" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586275394564" />
+    <state x="376" y="142" width="1157" height="748" key="new project wizard" timestamp="1586275409401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="376" y="142" width="1157" height="748" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586275409401" />
     <state x="624" y="238" key="run.anything.popup" timestamp="1586195714625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
