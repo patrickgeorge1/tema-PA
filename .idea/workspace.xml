@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e62c706-57d2-420e-af39-642899f82f5c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aB2qTBq6GcM16N1HM5p4zwFxLe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/trezorerie" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Bani">
+    <configuration name="Bani" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trezorerie.Bani" />
+      <module name="GIgel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trezorerie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trezorerie.Main" />
+      <module name="GIgel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trezorerie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="GIgel" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Bani" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Bani" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e62c706-57d2-420e-af39-642899f82f5c" name="Default Changelist" comment="" />
+      <created>1586194856407</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586194856407</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="135" key="GridCell.Tab.0.bottom" timestamp="1586219275334">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586219275334" />
+    <state width="1878" height="135" key="GridCell.Tab.0.center" timestamp="1586219275332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="135" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586219275332" />
+    <state width="1878" height="135" key="GridCell.Tab.0.left" timestamp="1586219275331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="135" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586219275331" />
+    <state width="1878" height="135" key="GridCell.Tab.0.right" timestamp="1586219275333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="135" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586219275333" />
+    <state width="1878" height="286" key="GridCell.Tab.1.bottom" timestamp="1586201581051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586201581051" />
+    <state width="1878" height="286" key="GridCell.Tab.1.center" timestamp="1586201581050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586201581050" />
+    <state width="1878" height="286" key="GridCell.Tab.1.left" timestamp="1586201581050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586201581050" />
+    <state width="1878" height="286" key="GridCell.Tab.1.right" timestamp="1586201581050">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586201581050" />
+    <state x="643" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1586210281791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="643" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586210281791" />
+    <state x="624" y="238" key="run.anything.popup" timestamp="1586195714625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="238" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586195714625" />
+  </component>
+</project>
