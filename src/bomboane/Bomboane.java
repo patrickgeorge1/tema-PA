@@ -1,12 +1,7 @@
 package bomboane;
 
-import garduri.Gard;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Bomboane {
     public int players = 0;
@@ -37,7 +32,7 @@ public class Bomboane {
 
 
     public void setUp() throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader reader = new BufferedReader(new FileReader("bomboane.in"));
         String[] first_line = reader.readLine().split(" ");
         this.players = Integer.parseInt(first_line[0]);
         this.candies = Integer.parseInt(first_line[1]);
@@ -66,30 +61,21 @@ public class Bomboane {
             double last_sum = 0.0;
             for (int sum_paid = player_interval.left; sum_paid <= candies; sum_paid++) {  // doar sumele astea le poate platii
                 double save = last_sum;
-//                last_sum += (last_corelation_sums[sum_paid - player_interval.left]) % 1000000007;
-//                last_sum -=  (last_corelation_sums[Math.max(sum_paid - player_interval.right - 1, 0)]) % 1000000007;
                 if (player_interval.left != player_interval.right) {
                     last_sum += (last_corelation_sums[sum_paid - player_interval.left]) % 1000000007;
-                    last_sum -=  (last_corelation_sums[Math.max(sum_paid - player_interval.right - 1, 0)]) % 1000000007;
+                    if (sum_paid - player_interval.right - 1 >= 0) {
+                        last_sum -= (last_corelation_sums[sum_paid - player_interval.right - 1]) % 1000000007;
+                    }
                 } else {
                     last_sum = (last_corelation_sums[sum_paid - player_interval.left]) % 1000000007;
-                }
-
-                if (last_sum < 0) {
-                    String res = "";
-                    for (int jj = 0; jj <= candies; jj++) res += "last[" + jj + "] " + last_corelation_sums[jj] + " ";
-                    System.out.println("player " + player + "   previous " + save  + "   sum_paid  " + sum_paid + "  +  " + ((last_corelation_sums[sum_paid - player_interval.left]) % 1000000007) + " - " + ((last_corelation_sums[Math.max(sum_paid - player_interval.right - 1, 0)]) % 1000000007));
-                    System.out.println(res);
-                    return;
                 }
                 current_corelation_sums[sum_paid] = last_sum % 1000000007;
             }
             last_corelation_sums = current_corelation_sums;
         }
-        System.out.println((int)last_corelation_sums[candies]);
-
-
-
+        BufferedWriter writer = new BufferedWriter(new FileWriter("bomboane.out"));
+        writer.write(Integer.toString((int)last_corelation_sums[candies]));
+        writer.close();
     }
 
     public static void main(String[] args) throws IOException {

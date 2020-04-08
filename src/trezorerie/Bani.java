@@ -1,12 +1,9 @@
 package trezorerie;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.ResourceBundle;
+import java.math.*;
 
 public class Bani {
 
@@ -14,9 +11,10 @@ public class Bani {
     public Integer type;
     public Integer n;
     public int result;
+    public String res;
 
     public void setUp() throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader reader = new BufferedReader(new FileReader("bani.in"));
         String[] input = reader.readLine().split(" ");
         this.type = Integer.parseInt(input[0]);
         this.n = Integer.parseInt(input[1]);
@@ -62,6 +60,7 @@ public class Bani {
         for (Double ways_for_banknote : before_ways_counter) {
             result = (int) ((result + ways_for_banknote) % 1000000007);
         }
+        res = Integer.toString(result);
     }
 
     public void dynamicType1() {
@@ -69,14 +68,21 @@ public class Bani {
         for (int i = 1; i < this.n; i++) {
             result = result * 2 % 1000000007;
         }
+        res = Integer.toString(result);
+//        BigInteger exponent = new BigInteger(Integer.toString(n - 1));
+//        BigInteger modulo = new BigInteger("1000000007");
+//        BigInteger power = new BigInteger("5").modPow(exponent, modulo);
+//        res = power.toString();
+
     }
 
     public void solve() throws IOException {
         setUp();
-//        backtracking(0, 0);
         if (type == 1) dynamicType1();
         else dynamicType2();
-        System.out.println(result);
+        BufferedWriter writer = new BufferedWriter(new FileWriter("gard.out"));
+        writer.write(res);
+        writer.close();
     }
 
     public static void main(String[] args) throws IOException {

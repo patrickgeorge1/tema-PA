@@ -1,8 +1,6 @@
 package garduri;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -36,7 +34,7 @@ public class Gard {
     }
 
     public void setUp() throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader reader = new BufferedReader(new FileReader("gard.in"));
         this.n = Integer.parseInt(reader.readLine());
         for (int i = 1; i <= n; i++) {
             String[] gard_string = reader.readLine().split(" ");
@@ -52,19 +50,33 @@ public class Gard {
         for (int i = 1; i < gardulete.size(); i++) {
             Gardulet now = gardulete.get(i);
             if (now.left == lastStart) {
-                if (now.right < lastEnd) result++;
-                else lastEnd = now.right;
-            }
-            else
-            {
                 if (now.right <= lastEnd) result++;
                 else {
-                    lastStart = now.left;
+                    result++;
                     lastEnd = now.right;
                 }
             }
+            else
+            {
+                if(now.left > lastEnd)
+                {
+                    lastStart = now.left;
+                    lastEnd = now.right;
+                }
+                else
+                {
+                    if (now.right <= lastEnd) result++;
+                    else {
+                        lastStart = now.left;
+                        lastEnd = now.right;
+                    }
+                }
+
+            }
         }
-        System.out.println(result);
+        BufferedWriter writer = new BufferedWriter(new FileWriter("gard.out"));
+        writer.write(Integer.toString(result));
+        writer.close();
     }
 
     public static void main(String[] args) throws IOException {
